@@ -208,7 +208,15 @@ ShowProfileCheckGuiBuilder(gui, profile, isAllowed) {
     packagesGHLH.AG90 := '5.000 đ' ;
     packagesGHLH.AG100 := '10.000 đ' ;
     packagesGHLH.GG135 := '5.000 đ' ;
-    packagesGHLH.GG155 := '35.000 đ' ;
+    packagesGHLH.MCL200 := '5.000 đ' ;
+    packagesGHLH.MCD85 := '5.000 đ' ;
+    packagesGHLH.MCD100 := '10.000 đ' ;
+    packagesGHLH.S135 := '5.000 đ' ;
+    packagesGHLH.S159 := '10.000 đ' ;
+    packagesGHLH.MCD145 := '5.000 đ' ;
+    packagesGHLH.MC150 := '10.000 đ' ;
+    packagesGHLH.MFC165 := '5.000 đ' ;
+
     packageClipboard := GetClipboardText()
     if !RegExMatch(packageClipboard, "^[a-zA-Z0-9]+$") {
         MsgBox Format("Gói cước '{1}' không hợp lệ", packageClipboard)
