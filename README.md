@@ -1,89 +1,56 @@
-# 📱 Công Cụ Hỗ Trợ Mobifone
+# Mobifone Helper
 
 <div align="center">
 
 ![Version](https://img.shields.io/badge/version-2.0-blue.svg?cacheSeconds=2592000)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
-![AutoHotkey](https://img.shields.io/badge/AutoHotkey-334455?style=flat&logo=autohotkey&logoColor=white)
+
+Công cụ hỗ trợ tra cứu thông tin nhanh chóng và tiện lợi cho nhân viên Mobifone.
+
+[Cài đặt](#cài-đặt) • [Hướng dẫn](#hướng-dẫn-sử-dụng) • [Liên hệ](#liên-hệ)
 
 </div>
 
-## 📑 Mục lục
+## Cài đặt
 
-- [📱 Công Cụ Hỗ Trợ Mobifone](#-công-cụ-hỗ-trợ-mobifone)
-  - [📑 Mục lục](#-mục-lục)
-  - [⚠️ TUYÊN BỐ TỪ CHỐI TRÁCH NHIỆM](#️-tuyên-bố-từ-chối-trách-nhiệm)
-  - [💻 Yêu cầu hệ thống](#-yêu-cầu-hệ-thống)
-  - [🚀 Cài đặt](#-cài-đặt)
-  - [📖 Hướng dẫn sử dụng](#-hướng-dẫn-sử-dụng)
-    - [⭐ Tính năng chung](#-tính-năng-chung)
-  - [📅 Cộng ngày](#-cộng-ngày)
-  - [🔍 Tra cứu mã / gói](#-tra-cứu-mã--gói)
-  - [🔄 Công cụ chuyển đổi đơn vị](#-công-cụ-chuyển-đổi-đơn-vị)
-  - [🙏 Credits](#-credits)
-  - [📞 Liên hệ \& Báo lỗi](#-liên-hệ--báo-lỗi)
-
-## ⚠️ TUYÊN BỐ TỪ CHỐI TRÁCH NHIỆM
-
-> ❗ Công cụ này được phát triển nhằm hỗ trợ tra cứu/tham khảo thông tin. Dữ liệu trong công cụ có thể chưa đầy đủ hoặc chưa được cập nhật kịp thời. Tôi sẽ cập nhật dữ liệu khi có thời gian. Người dùng vui lòng kiểm tra lại thông tin từ nguồn chính thức nếu cần độ chính xác cao. Tôi không chịu trách nhiệm đối với bất kỳ sai sót hoặc thiệt hại nào phát sinh từ việc sử dụng công cụ này.
-
-## 💻 Yêu cầu hệ thống
-
-- 🪟 Hệ điều hành Windows
-
-## 🚀 Cài đặt
-
-1. Tải xuống file `Mobifone.exe` hoặc `Mobifone.ahk`
+1. Tải xuống file `Mobifone.exe`
 2. Chạy file để bắt đầu sử dụng
 
-## 📖 Hướng dẫn sử dụng
+## Hướng dẫn sử dụng
 
-### ⭐ Tính năng chung
+### Tính năng chính
 
-| Phím tắt                                          | Chức năng                                          |
-| ------------------------------------------------- | -------------------------------------------------- |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | Always on top (Giữ cửa sổ luôn hiển thị trên cùng) |
+#### Hiển thị cửa sổ
 
-## 📅 Cộng ngày
+`Ctrl + Shift + T` — Giữ cửa sổ luôn hiển thị trên cùng
 
-| Phím tắt                                          | Chức năng                                                          |
-| ------------------------------------------------- | ------------------------------------------------------------------ |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> | Cộng 4, 10, 14, 30, 45, 60 ngày                                    |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> | Tính ngày hết hạn sử dụng của gói dài kỳ (Chu kỳ 30 ngày, 31 ngày) |
+#### Công cụ tính ngày
 
-> 💡 **Lưu ý**: Trường hợp không được chọn ngày thì sẽ tính từ ngày hiện tại
+`Ctrl + Shift + Q` — Cộng 4, 10, 14, 30, 45, 60 ngày  
+`Ctrl + Shift + E` — Tính ngày hết hạn gói dài kỳ (30/31 ngày)
 
-## 🔍 Tra cứu mã / gói
+#### Tra cứu thông tin
 
-| Phím tắt                                          | Chức năng                                                    |
-| ------------------------------------------------- | ------------------------------------------------------------ |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd> | Tra cứu profile đăng ký được DT20                            |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Tra cứu nhà mạng                                             |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> | Tra cứu gói được gia hạn linh hoạt (đơn kỳ và dài kỳ) / CVTN |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> | Tra cứu mã lịch sử dịch vụ                                   |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd> | Tra cứu tổng đài ứng tiền (mã hoàn ứng, mã ứng, số tổng đài) |
+`Ctrl + Shift + Y` — Tra cứu profile DT20  
+`Ctrl + Shift + S` — Tra cứu nhà mạng  
+`Ctrl + Shift + G` — Tra cứu gói gia hạn linh hoạt/CVTN  
+`Ctrl + Shift + L` — Tra cứu mã lịch sử dịch vụ  
+`Ctrl + Shift + U` — Tra cứu tổng đài ứng tiền
 
-## 🔄 Công cụ chuyển đổi đơn vị
+#### Chuyển đổi đơn vị
 
-| Phím tắt                                          | Chức năng                                        |
-| ------------------------------------------------- | ------------------------------------------------ |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd> | Chuyển từ giây sang dạng "Giờ phút giây"         |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> | Chuyển từ KB sang dạng "MB và GB" (tự động copy) |
+`Ctrl + Shift + J` — Chuyển đổi giây sang "Giờ phút giây"  
+`Ctrl + Shift + K` — Chuyển đổi KB sang MB/GB
 
-## 🙏 Credits
+## Lưu ý
 
-- 🎨 Icon được cung cấp bởi [Icons8](https://icons8.com)
-- ⚡ Phát triển bằng [AutoHotkey v2.0](https://www.autohotkey.com)
+> Dữ liệu trong công cụ có thể chưa được cập nhật kịp thời. Vui lòng kiểm tra thông tin từ nguồn chính thức nếu cần độ chính xác cao.
 
-## 📞 Liên hệ & Báo lỗi
+## Liên hệ
 
-Nếu bạn phát hiện lỗi hoặc có đề xuất cải tiến, vui lòng liên hệ:
-
-- 📧 Email: nguyenhai86.it@gmail.com
-- 📱 Phone: +84932880541
-
----
+📧 nguyenhai86.it@gmail.com  
+📱 +84932880541
 
 <div align="center">
-Made with ❤️ by NguyenHai
+<sub>Made with ❤️ by NguyenHai</sub>
 </div>
